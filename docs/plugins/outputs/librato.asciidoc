@@ -1,5 +1,6 @@
 :plugin: librato
 :type: output
+:default_plugin: 0
 
 ///////////////////////////////////////////
 START - GENERATED VARIABLES, DO NOT EDIT!
@@ -12,7 +13,7 @@ START - GENERATED VARIABLES, DO NOT EDIT!
 END - GENERATED VARIABLES, DO NOT EDIT!
 ///////////////////////////////////////////
 
-[id="plugins-{type}s-{plugin}"]
+[id="plugins-{type}-{plugin}"]
 
 === Librato output plugin
 
@@ -20,10 +21,6 @@ include::{include_path}/plugin_header.asciidoc[]
 
 ==== Description
 
-This output lets you send metrics, annotations, and alerts to
-Librato based on Logstash events
-
-This is VERY experimental and inefficient right now.
 
 
 [id="plugins-{type}s-{plugin}-options"]
@@ -54,6 +51,10 @@ output plugins.
   * Value type is <<string,string>>
   * There is no default value for this setting.
 
+This output lets you send metrics, annotations and alerts to
+Librato based on Logstash events
+
+This is VERY experimental and inefficient right now.
 Your Librato account
 usually an email address
 

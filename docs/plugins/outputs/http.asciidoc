@@ -4,9 +4,9 @@
 ///////////////////////////////////////////
 START - GENERATED VARIABLES, DO NOT EDIT!
 ///////////////////////////////////////////
-:version: v4.3.1
-:release_date: 2017-06-23
-:changelog_url: https://github.com/logstash-plugins/logstash-output-http/blob/v4.3.1/CHANGELOG.md
+:version: v4.3.2
+:release_date: 2017-07-06
+:changelog_url: https://github.com/logstash-plugins/logstash-output-http/blob/v4.3.2/CHANGELOG.md
 :include_path: ../../../../logstash/docs/include
 ///////////////////////////////////////////
 END - GENERATED VARIABLES, DO NOT EDIT!
@@ -17,18 +17,6 @@ END - GENERATED VARIABLES, DO NOT EDIT!
 === Http output plugin
 
 include::{include_path}/plugin_header.asciidoc[]
-
-==== Description
-
-This output lets you send events to a generic HTTP(S) endpoint.
-
-This output will execute up to 'pool_max' requests in parallel for performance.
-Consider this when tuning this plugin for performance.
-
-Additionally, note that when parallel execution is used strict ordering of events is not
-guaranteed!
-
-Beware, this gem does not yet support codecs. Please use the 'format' option for now.
 
 [id="plugins-{type}s-{plugin}-options"]
 ==== Http Output Configuration Options

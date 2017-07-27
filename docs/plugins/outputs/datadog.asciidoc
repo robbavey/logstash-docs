@@ -1,5 +1,6 @@
 :plugin: datadog
 :type: output
+:default_plugin: 0
 
 ///////////////////////////////////////////
 START - GENERATED VARIABLES, DO NOT EDIT!
@@ -12,7 +13,7 @@ START - GENERATED VARIABLES, DO NOT EDIT!
 END - GENERATED VARIABLES, DO NOT EDIT!
 ///////////////////////////////////////////
 
-[id="plugins-{type}s-{plugin}"]
+[id="plugins-{type}-{plugin}"]
 
 === Datadog output plugin
 
@@ -20,10 +21,6 @@ include::{include_path}/plugin_header.asciidoc[]
 
 ==== Description
 
-This output sends events to DataDogHQ based on Logstash events.
-
-Note that since Logstash maintains no state
-these will be one-shot events
 
 
 [id="plugins-{type}s-{plugin}-options"]
@@ -63,6 +60,12 @@ Alert type
   * This is a required setting.
   * Value type is <<string,string>>
   * There is no default value for this setting.
+
+This output lets you send events (for now. soon metrics) to
+DataDogHQ based on Logstash events
+
+Note that since Logstash maintains no state
+these will be one-shot events
 
 Your DatadogHQ API key
 

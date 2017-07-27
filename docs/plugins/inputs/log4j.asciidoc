@@ -1,5 +1,6 @@
 :plugin: log4j
 :type: input
+:default_plugin: 0
 
 ///////////////////////////////////////////
 START - GENERATED VARIABLES, DO NOT EDIT!
@@ -12,11 +13,13 @@ START - GENERATED VARIABLES, DO NOT EDIT!
 END - GENERATED VARIABLES, DO NOT EDIT!
 ///////////////////////////////////////////
 
-[id="plugins-{type}s-{plugin}"]
+[id="plugins-{type}-{plugin}"]
 
 === Log4j input plugin
 
 include::{include_path}/plugin_header.asciidoc[]
+
+==== Description
 
 ==== Deprecation Notice
 

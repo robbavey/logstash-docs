@@ -12,7 +12,7 @@ START - GENERATED VARIABLES, DO NOT EDIT!
 END - GENERATED VARIABLES, DO NOT EDIT!
 ///////////////////////////////////////////
 
-[id="plugins-{type}s-{plugin}"]
+[id="plugins-{type}-{plugin}"]
 
 === Edn codec plugin
 
@@ -20,4 +20,14 @@ include::{include_path}/plugin_header.asciidoc[]
 
 ==== Description
 
-Reads EDN format data.
+
+
+[id="plugins-{type}s-{plugin}-options"]
+==== Edn Codec Configuration Options
+
+This plugin supports the following configuration options plus the <<plugins-{type}s-{plugin}-common-options>> described later.
+
+[cols="<,<,<",options="header",]
+|=======================================================================
+|Setting |Input type|Required
+|=======================================================================

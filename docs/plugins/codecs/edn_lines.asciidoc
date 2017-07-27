@@ -12,7 +12,7 @@ START - GENERATED VARIABLES, DO NOT EDIT!
 END - GENERATED VARIABLES, DO NOT EDIT!
 ///////////////////////////////////////////
 
-[id="plugins-{type}s-{plugin}"]
+[id="plugins-{type}-{plugin}"]
 
 === Edn_lines codec plugin
 
@@ -20,4 +20,12 @@ include::{include_path}/plugin_header.asciidoc[]
 
 ==== Description
 
-Reads newline-delimited EDN format data.
+
+
+[id="plugins-{type}s-{plugin}-options"]
+==== Edn_lines Codec Configuration Options
+
+[cols="<,<,<",options="header",]
+|=======================================================================
+|Setting |Input type|Required
+|=======================================================================

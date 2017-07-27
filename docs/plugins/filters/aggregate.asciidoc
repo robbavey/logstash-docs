@@ -1,5 +1,6 @@
 :plugin: aggregate
 :type: filter
+:default_plugin: 0
 
 ///////////////////////////////////////////
 START - GENERATED VARIABLES, DO NOT EDIT!
@@ -12,11 +13,22 @@ START - GENERATED VARIABLES, DO NOT EDIT!
 END - GENERATED VARIABLES, DO NOT EDIT!
 ///////////////////////////////////////////
 
-[id="plugins-{type}s-{plugin}"]
+[id="plugins-{type}-{plugin}"]
 
 === Aggregate filter plugin
 
 include::{include_path}/plugin_header.asciidoc[]
+
+
+<<plugins-{type}s-{plugin}-description>> +
+<<plugins-{type}s-{plugin}-example1>> +
+<<plugins-{type}s-{plugin}-example2>> +
+<<plugins-{type}s-{plugin}-example3>> +
+<<plugins-{type}s-{plugin}-example4>> +
+<<plugins-{type}s-{plugin}-example5>> +
+<<plugins-{type}s-{plugin}-howitworks>> +
+<<plugins-{type}s-{plugin}-usecases>> +
+<<plugins-{type}s-{plugin}-options>> +
 
 
 [id="plugins-{type}s-{plugin}-description"]

@@ -1,5 +1,6 @@
 :plugin: email
 :type: output
+:default_plugin: 0
 
 ///////////////////////////////////////////
 START - GENERATED VARIABLES, DO NOT EDIT!
@@ -12,7 +13,7 @@ START - GENERATED VARIABLES, DO NOT EDIT!
 END - GENERATED VARIABLES, DO NOT EDIT!
 ///////////////////////////////////////////
 
-[id="plugins-{type}s-{plugin}"]
+[id="plugins-{type}-{plugin}"]
 
 === Email output plugin
 
@@ -20,8 +21,6 @@ include::{include_path}/plugin_header.asciidoc[]
 
 ==== Description
 
-The output sends email when an output is received. Alternatively, you may include or
-exclude the email output execution using conditionals.
 
 ==== Usage Example
 [source,ruby]
@@ -39,7 +38,8 @@ output {
   }
 }
 ----------------------------------
-
+Send email when an output is received. Alternatively, you may include or
+exclude the email output execution using conditionals.
 
 [id="plugins-{type}s-{plugin}-options"]
 ==== Email Output Configuration Options

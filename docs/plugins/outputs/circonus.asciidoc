@@ -1,5 +1,6 @@
 :plugin: circonus
 :type: output
+:default_plugin: 0
 
 ///////////////////////////////////////////
 START - GENERATED VARIABLES, DO NOT EDIT!
@@ -12,7 +13,7 @@ START - GENERATED VARIABLES, DO NOT EDIT!
 END - GENERATED VARIABLES, DO NOT EDIT!
 ///////////////////////////////////////////
 
-[id="plugins-{type}s-{plugin}"]
+[id="plugins-{type}-{plugin}"]
 
 === Circonus output plugin
 
@@ -20,7 +21,6 @@ include::{include_path}/plugin_header.asciidoc[]
 
 ==== Description
 
-This output sends annotations to Circonus based on Logstash events.
 
 
 [id="plugins-{type}s-{plugin}-options"]
@@ -68,6 +68,9 @@ or
   * This is a required setting.
   * Value type is <<string,string>>
   * There is no default value for this setting.
+
+This output lets you send annotations to
+Circonus based on Logstash events
 
 Your Circonus API Token
 

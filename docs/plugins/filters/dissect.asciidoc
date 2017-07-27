@@ -4,9 +4,9 @@
 ///////////////////////////////////////////
 START - GENERATED VARIABLES, DO NOT EDIT!
 ///////////////////////////////////////////
-:version: v1.0.9
-:release_date: 2017-06-23
-:changelog_url: https://github.com/logstash-plugins/logstash-filter-dissect/blob/v1.0.9/CHANGELOG.md
+:version: v1.0.11
+:release_date: 2017-07-07
+:changelog_url: https://github.com/logstash-plugins/logstash-filter-dissect/blob/v1.0.11/CHANGELOG.md
 :include_path: ../../../../logstash/docs/include
 ///////////////////////////////////////////
 END - GENERATED VARIABLES, DO NOT EDIT!
@@ -15,14 +15,6 @@ END - GENERATED VARIABLES, DO NOT EDIT!
 [id="plugins-{type}s-{plugin}"]
 
 === Dissect filter plugin
-
-[IMPORTANT]
-===============================
-The Logstash 5.5.0 release will not work with the dissect filter out-of-the-box. To use this plugin, please update the dissect filter to v1.0.11 or higher by running:
-
-`bin/logstash-plugin update logstash-filter-dissect`
-
-===============================
 
 include::{include_path}/plugin_header.asciidoc[]
 

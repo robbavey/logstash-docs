@@ -4,9 +4,9 @@
 ///////////////////////////////////////////
 START - GENERATED VARIABLES, DO NOT EDIT!
 ///////////////////////////////////////////
-:version: v1.0.4
-:release_date: 2017-06-23
-:changelog_url: https://github.com/logstash-plugins/logstash-input-dead_letter_queue/blob/v1.0.4/CHANGELOG.md
+:version: v1.0.5
+:release_date: 2017-07-12
+:changelog_url: https://github.com/logstash-plugins/logstash-input-dead_letter_queue/blob/v1.0.5/CHANGELOG.md
 :include_path: ../../../../logstash/docs/include
 ///////////////////////////////////////////
 END - GENERATED VARIABLES, DO NOT EDIT!
@@ -15,14 +15,6 @@ END - GENERATED VARIABLES, DO NOT EDIT!
 [id="plugins-{type}s-{plugin}"]
 
 === Dead_letter_queue input plugin
-
-[IMPORTANT]
-===============================
-The Logstash 5.5.0 release will not work with the dead_letter_queue input out-of-the-box. To use the dead_letter_queue input, please update the plugin to v1.0.5 or higher by running:
-
-`bin/logstash-plugin update logstash-input-dead_letter_queue`
-
-===============================
 
 include::{include_path}/plugin_header.asciidoc[]
 
