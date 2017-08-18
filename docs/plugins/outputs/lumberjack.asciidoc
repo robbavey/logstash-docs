@@ -13,7 +13,7 @@ START - GENERATED VARIABLES, DO NOT EDIT!
 END - GENERATED VARIABLES, DO NOT EDIT!
 ///////////////////////////////////////////
 
-[id="plugins-{type}-{plugin}"]
+[id="plugins-{type}s-{plugin}"]
 
 === Lumberjack output plugin
 
@@ -21,7 +21,7 @@ include::{include_path}/plugin_header.asciidoc[]
 
 ==== Description
 
-
+Sends events using the `lumberjack` protocol.
 
 [id="plugins-{type}s-{plugin}-options"]
 ==== Lumberjack Output Configuration Options
